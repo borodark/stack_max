@@ -1,0 +1,11 @@
+# App artifacts
+/_build
+/deps
+/*.ez
+*.swp
+
+# Generated on crash by the VM
+erl_crash.dump
+
+#we copy built releases to this releases directory, no need to check into vcs
+/release
